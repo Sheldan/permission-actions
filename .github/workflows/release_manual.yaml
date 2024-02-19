@@ -1,5 +1,8 @@
 name: Creates a release
 on: workflow_dispatch
+permissions:
+  packages: write
+  contents: write
 jobs:
   publish:
     runs-on: ubuntu-latest
